@@ -9,7 +9,3 @@ ActionMailer::Base.smtp_settings = {
 :enable_starttls_auto => true
 
 }
-
-heroku config:get SENDGRID_USERNAME
-
-heroku config:get SENDGRID_PASSWORD
