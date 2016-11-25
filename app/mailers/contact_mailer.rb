@@ -1,9 +1,9 @@
 class ContactMailer < ActionMailer::Base
-default to: "quentin.daniel@libertysurf.fr"
+default to: "info@chesnowitz.com"
 def contact_email(name, email, message)
 @name = name
 @email = email
 @message = message
-mail(from: email, subject: 'Palla Contact Form Message')
+mail(from: email, subject: 'Chesnowtiz.com Contact Form Message')
 end
 end
